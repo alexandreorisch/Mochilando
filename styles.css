@@ -1,11 +1,11 @@
 
 header div{
-    width: 120px;
+    width: 200px;
     margin: auto;
     background-image: linear-gradient(90deg,#9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
     border-radius: 50%;
     display: flex;
-    padding: 4px;
+    padding: 10px;
     transition: transform .3s;
     animation: fromTop .7s .2s backwards;
 }
@@ -22,8 +22,10 @@ header div img{
 
 header  {
     display:inline-block
-    
-    
+    background-color: #70df9e;
+    padding: 20px;
+    text-align: center;
+       
   }
   
   nav ul {
@@ -65,6 +67,7 @@ input, textarea {
 nav {
   background-color: #70df9e;
   padding: 10px;
+  
 }
 
 nav ul {
@@ -89,7 +92,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #555;
+  background-color: #E2D45C;
 }
 
 
@@ -113,4 +116,24 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+.new_products {
+  display: flex;
+  justify-content: space-between; /* ou 'space-around', 'space-evenly', dependendo do espaçamento desejado */
+  flex-wrap: wrap;
+}
+
+.new_prod_box {
+  width: 120px; /* ou outro valor adequado */
+  text-align: center; /* centraliza o conteúdo dentro da caixa */
+  margin-bottom: 20px; /* ou outro valor adequado para o espaçamento vertical */
+}
+
+.new_prod_bg {
+  overflow: hidden; /* garante que a imagem não ultrapasse os limites da caixa */
+}
+
+.new_prod_bg img {
+  width: 100%;
+  height: auto;
 }

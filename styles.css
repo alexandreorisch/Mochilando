@@ -1,3 +1,8 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  height: 100vh;
+}
 
 header div{
     width: 200px;
@@ -23,7 +28,6 @@ header div img{
 header  {
     display:inline-block
     background-color: #70df9e;
-    padding: 20px;
     text-align: center;
        
   }
@@ -42,12 +46,8 @@ header  {
     font-weight: bold;
   }
   
-  body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-}
-
-form {
+ 
+  form {
     max-width: 400px;
     margin: auto;
 }
@@ -136,4 +136,14 @@ footer a:hover {
 .new_prod_bg img {
   width: 100%;
   height: auto;
+}
+
+.container-bag{
+  height: 100%;
+    div{
+    height: calc(100% - 338px);  
+    display:flex; 
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }

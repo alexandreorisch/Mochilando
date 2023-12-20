@@ -147,3 +147,64 @@ footer a:hover {
     justify-content: space-between;
   }
 }
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh; /* 100% da altura da viewport para centralizar verticalmente */
+    }
+
+    .cartao-club {
+      text-align: center; /* Centraliza o conteúdo interno */
+    }
+
+    .thumb {
+      border: 0px solid;
+      width: 474px;
+      height: 152px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .thumb:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cartao-club">
+    <a href="#">
+      <img src="./img/cartao-club-mochilando.jpg" alt="" class="thumb" />
+    </a>
+    <figcaption>Cartão do Club Mochilando.com</figcaption>
+  </div>
+
+  <style>
+    /* Estilos para Aventuras Sem Limites */
+    .aventuras_sem_limites,
+    .comunidade_aventureiros,
+    .dicas_high_tech,
+    .locais_secretos,
+    .planejamento_estrategico,
+    .roteiros_desafiadores {
+      text-align: center;
+      margin: 20px;
+      display: inline-block;
+    }
+
+    .thumb {
+      transition: transform 0.3s ease-in-out;
+      width: 100%;
+    }
+
+    .thumb:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
